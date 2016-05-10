@@ -10,7 +10,7 @@
 
      <form method="get" action="/check">
 	Pregunta: <%= question %> <p>
-	<input type="text" name="answer" value="" placeholder="Responda aquí"/>
+	<input type="text" name="answer" value="<%= answer %>" placeholder="Responda aquí"/>
 	<input type="submit" value="Comprobar">
      </form>
     <footer> <a href="https://github.com/fmanro/quiz_2016.git" target="_blank"> Página de Github </a> </footer>
